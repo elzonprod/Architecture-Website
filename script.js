@@ -1,1 +1,3 @@
-console.log('Start Project')
+document.querySelector('.hamburger-menu').addEventListener("click", () => {
+    document.querySelector('.container').classList.toggle('change')
+})
